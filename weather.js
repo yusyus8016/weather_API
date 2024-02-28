@@ -2,7 +2,7 @@ document.getElementById('weatherForm').addEventListener('submit', async (e) => {
     e.preventDefault(); 
     const city = document.getElementById('inputCity').value;
     try {
-        const response = await fetch(`/weather?city=${city}`);
+        const response = await fetch(`http://localhost:4001/weather?city=${city}`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
