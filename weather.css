@@ -1,8 +1,8 @@
 .body{
      align-items: center;
      display: flex;
-     width: 37rem;
-     height:40rem;
+     width: 37vw;
+     height:  100vh;
      background-image: url('./logo/foto1.jpg');
      background-size: cover;
      background-position: center;
@@ -10,7 +10,7 @@
      font-family: 'Arial', sans-serif;
      margin: 0;
      padding: 0;
-     color: rgb(8, 8, 8);
+     color: rgb(0, 0, 0);
  }
 
  .container{
@@ -19,13 +19,100 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 37rem;
-    height:40rem;  
+    width: 37vw;
+    height:40vh;  
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
    
-  
+  padding: 40px;
  }
+
+
+ .target {
+   border: 2px solid #ccc;
+   border-radius: 15%;
+   width: 30vw;
+   height: 40vh;
+   transition: border-width 0.3s ease;
+    /* Agregamos transición para un efecto suave */
+}
+
+.target.query-submitted  {
+   background-color: rgba(14, 30, 32, 0.692);
+}
+
+.target.query-submitted {
+   width: 30vw;
+   height: 80vh; /* Aumentamos el ancho del borde cuando se envía la consulta */
+}
+
+ .text-main{
+   text-align: center;
+ }
+
+ .target.query-submitted .text-main{
+   color: #ccc;
+ }
+
+ .form{
+   text-align: center;
+ }
+
+ .weatherInfo {
+   text-align: center;
+   margin-top: 10vh;
+   background-color: transparent; /* Fondo transparente por defecto */
+}
+
+.target.query-submitted .weatherInfo {
+   background-color: white;
+   padding: 15px;
+   border-radius: 20%; 
+   height: 41vh;/* Cambio de color de fondo cuando se envía la consulta */
+}
+
+
+ .inputCity {
+   width: 12vw;
+   height: 3vh;
+   background-color: #cfcfcf; /* Color de fondo */
+   border: none; /* Sin borde */
+   color: rgb(3, 3, 3); /* Color del texto */
+   padding: 10px 25px; /* Espaciado interno (arriba/abajo - izquierda/derecha) */
+   text-align: center; /* Centrar el texto */
+   text-decoration: dotted; /* Sin decoración de texto */
+   display: inline-block; /* Mostrar como bloque en línea */
+   font-size: 16px; /* Tamaño del texto */
+   margin: 4px 2px; /* Margen exterior (arriba/abajo - izquierda/derecha) */
+   cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+   border-radius: 8px; /* Radio de borde */
+   transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.inputCity:hover {
+   background-color: #787e78; /* Cambiar el color de fondo al pasar sobre el botón */
+}
+
+.button-search{
+   width: 7vw;
+   height: 7vh;
+   padding: 10px 25px; /* Espaciado interno (arriba/abajo - izquierda/derecha) */
+   text-align: center; /* Centrar el texto */
+   text-decoration:dotted; /* Sin decoración de texto */
+   display: inline-block; /* Mostrar como bloque en línea */
+   font-size: 16px; /* Tamaño del texto */
+   margin: 4px 2px; /* Margen exterior (arriba/abajo - izquierda/derecha) */
+   cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+   border-radius: 8px;
+   justify-content: center;
+   text-align: center;
+}
+
+.name{
+   font-size: 35px;
+}
+
 
