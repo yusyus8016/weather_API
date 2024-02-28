@@ -64,7 +64,9 @@ http://localhost:4001
 
 
 ## App antes de hacer la consulta del clima
-![image](https://github.com/yusyus8016/weather_API/assets/138074670/c79cdc10-68b4-429d-a4fd-2c21ad87dcc7)
+![image](https://github.com/yusyus8016/weather_API/assets/138074670/0bb74558-9ec4-4544-8932-d65a66dd7984)
+
 
 ## despues de hacer la consulta 
-![image](https://github.com/yusyus8016/weather_API/assets/138074670/cc1b7037-5572-4953-bd76-7976d46e79d9)
+![image](https://github.com/yusyus8016/weather_API/assets/138074670/ec2aae65-90bb-4252-994d-96439ddf38f2)
+
