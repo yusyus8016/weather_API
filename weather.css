@@ -37,7 +37,6 @@
    width: 30vw;
    height: 40vh;
    transition: border-width 0.3s ease;
-    /* Agregamos transición para un efecto suave */
 }
 
 .target.query-submitted  {
@@ -46,7 +45,7 @@
 
 .target.query-submitted {
    width: 30vw;
-   height: 80vh; /* Aumentamos el ancho del borde cuando se envía la consulta */
+   height: 80vh; 
 }
 
  .text-main{
@@ -64,48 +63,48 @@
  .weatherInfo {
    text-align: center;
    margin-top: 10vh;
-   background-color: transparent; /* Fondo transparente por defecto */
+   background-color: transparent; 
 }
 
 .target.query-submitted .weatherInfo {
    background-color: white;
    padding: 15px;
    border-radius: 20%; 
-   height: 41vh;/* Cambio de color de fondo cuando se envía la consulta */
+   height: 41vh;
 }
 
 
  .inputCity {
    width: 12vw;
    height: 3vh;
-   background-color: #cfcfcf; /* Color de fondo */
-   border: none; /* Sin borde */
-   color: rgb(3, 3, 3); /* Color del texto */
-   padding: 10px 25px; /* Espaciado interno (arriba/abajo - izquierda/derecha) */
-   text-align: center; /* Centrar el texto */
-   text-decoration: dotted; /* Sin decoración de texto */
-   display: inline-block; /* Mostrar como bloque en línea */
-   font-size: 16px; /* Tamaño del texto */
-   margin: 4px 2px; /* Margen exterior (arriba/abajo - izquierda/derecha) */
-   cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
-   border-radius: 8px; /* Radio de borde */
-   transition: background-color 0.3s; /* Transición suave del color de fondo */
+   background-color: #cfcfcf; 
+   border: none; 
+   color: rgb(3, 3, 3); 
+   padding: 10px 25px; 
+   text-align: center; 
+   text-decoration: dotted; 
+   display: inline-block; 
+   font-size: 16px; 
+   margin: 4px 2px; 
+   cursor: pointer;
+   border-radius: 8px; 
+   transition: background-color 0.3s; 
 }
 
 .inputCity:hover {
-   background-color: #787e78; /* Cambiar el color de fondo al pasar sobre el botón */
+   background-color: #787e78; 
 }
 
 .button-search{
    width: 7vw;
    height: 7vh;
-   padding: 10px 25px; /* Espaciado interno (arriba/abajo - izquierda/derecha) */
-   text-align: center; /* Centrar el texto */
-   text-decoration:dotted; /* Sin decoración de texto */
-   display: inline-block; /* Mostrar como bloque en línea */
-   font-size: 16px; /* Tamaño del texto */
-   margin: 4px 2px; /* Margen exterior (arriba/abajo - izquierda/derecha) */
-   cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+   padding: 10px 25px;
+   text-align: center; 
+   text-decoration:dotted; 
+   display: inline-block; 
+   font-size: 16px;
+   margin: 4px 2px; 
+   cursor: pointer; 
    border-radius: 8px;
    justify-content: center;
    text-align: center;
