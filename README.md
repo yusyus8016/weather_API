@@ -3,13 +3,13 @@
 
 WeatherApp es una aplicación que proporciona información meteorológica actualizada y precisa para cualquier ubicación del mundo. 
 Con una interfaz intuitiva y fácil de usar, los usuarios pueden obtener rápidamente los pronósticos del tiempo, incluyendo temperatura, condiciones climáticas, 
-velocidad del viento, humedad y más.
+velocidad del viento y humedad.
 
 ## Características
 
 
 Detalles Precisos: Visualiza detalles precisos como la temperatura, condiciones climáticas, velocidad del viento y humedad.
-Pronóstico del Tiempo: Obtén el pronóstico del tiempo actual y a futuro para cualquier ubicación.
+Pronóstico del Tiempo: Obtén el pronóstico del tiempo actual para cualquier ubicación.
 Interfaz Amigable: Diseño intuitivo que hace que la navegación y la obtención de información sean rápidas y sencillas.
 
 ## Instalación
@@ -54,7 +54,7 @@ Inicia la aplicación:
 npm start
 ```
 
-Abre tu navegador web y busca a
+Abre tu navegador web y busca:
 ```bash
 http://localhost:4001
 ```
@@ -64,9 +64,11 @@ http://localhost:4001
 
 
 ## App antes de hacer la consulta del clima
-![image](https://github.com/yusyus8016/weather_API/assets/138074670/0bb74558-9ec4-4544-8932-d65a66dd7984)
+![Captura de pantalla 2024-03-19 183546](https://github.com/yusyus8016/weather_API/assets/138074670/97af010c-32d3-480c-a00d-39390251a952)
+
 
 
 ## despues de hacer la consulta 
-![image](https://github.com/yusyus8016/weather_API/assets/138074670/ec2aae65-90bb-4252-994d-96439ddf38f2)
+![Captura de pantalla 2024-03-19 175245](https://github.com/yusyus8016/weather_API/assets/138074670/23c62765-481b-4a54-9a3a-a8a36fb3b3e5)
+
 
